@@ -25,7 +25,7 @@ def test_parse_expression_full():
     assert parsed["day_of_month"] == [1, 15]
     assert parsed["month"] == list(range(1, 13))
     assert parsed["day of week"] == [1, 2, 3, 4, 5]
-    assert parsed["command"] == "/usr/bin/find"
+    assert parsed["command"] == ["/usr/bin/find"]
 
 
 def test_invalid_expression_length(capsys):

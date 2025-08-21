@@ -25,7 +25,7 @@ cd CronParser
 
 ```bash
 # Linux/Mac
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 
 # Windows
@@ -36,12 +36,12 @@ venv\Scripts\activate
 3. **Install dependencies:**
 
 ```bash
-pip install pytest
+python3 -m pip install pytest
 ```
 
 ## Usage
 ## Run CronParser from the command line
-`python CronParser.py "*/15 0 1,15 * 1-5 /usr/bin/find"`
+`python3 CronParser.py "*/15 0 1,15 * 1-5 /usr/bin/find"`
 
 This will print the expanded values for each cron field.
 
