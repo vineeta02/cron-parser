@@ -49,7 +49,7 @@ This will print the expanded values for each cron field.
 Run unit tests using pytest:
 
 ```bash
-pytest -v test_cron_parser.py
+pytest -v Test_CronParser.py
 ```
 
 ## Examples
